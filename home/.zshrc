@@ -1,6 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$PATH:$HOME/Dev/flutter/bin"
 
-plugins=(gitfast z per-directory-history dirhistory)
+
+plugins=(brew composer gitfast z per-directory-history dirhistory vagrant)
 
 typeset -g POWERLEVEL9K_MODE='nerdfont-complete'
 typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir)

@@ -32,9 +32,3 @@ export COCOAPODS_DISABLE_STATS=true
 
 # Disable Brew analytics
 export HOMEBREW_NO_ANALYTICS=1
-
-# Golang
-export GOPATH=~/dev/go
-export GOBIN=~/dev/go/bin
-
-export PATH=$GOBIN:/usr/local/bin:/usr/local/sbin:~/bin:$PATH

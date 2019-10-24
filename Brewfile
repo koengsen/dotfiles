@@ -1,6 +1,10 @@
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'caskroom/cask-cask'
+tap 'caskroom/cask-versions'
+
 brew 'bazaar'
+brew 'composer'
 brew 'curl'
 brew 'git'
 brew 'gnupg'
@@ -13,26 +17,27 @@ brew 'netcat'
 brew 'node'
 brew 'pinentry-mac'
 brew 'php'
+brew 'pkg-config'
 brew 'ssh-copy-id'
-brew 'tree'
 brew 'wget'
 brew 'yarn'
 brew 'zsh'
 
-tap 'caskroom/cask'
-tap 'caskroom/versions'
 cask 'disk-inventory-x'
 cask 'dropbox'
 cask 'firefox'
 cask 'google-cloud-sdk'
 cask 'iterm2'
 cask 'keka'
-cask 'slack'
-cask 'spectacle'
-cask 'virtualbox'
+cask 'vagrant'
+# cask 'virtualbox'
 cask 'visual-studio-code'
-cask 'vlc'
+cask 'phpstorm'
 
+mas "1Password", id: 1333542190
 mas "Amphetamine", id: 937984704
-mas "Wunderlist", id: 410628904
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
 mas "Xcode", id: 497799835

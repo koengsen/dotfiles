@@ -16,25 +16,20 @@ alias k="kubectl"
 
 # Git
 alias gs="git status"
-alias gp="git push"
-alias gb="git branch"
+alias gps="git push"
+alias gbr="git branch"
 alias ga="git add"
 alias gap="git add -p"
 alias gpr="git pull --rebase"
-alias gci="git commit"
+alias gco="git commit"
 alias gcb="git clean-branches"
-alias gco="git checkout"
-alias grco="git rebcount"
-alias grci="git rebcom"
+alias gch="git checkout"
+alias greco="git rebcount"
+alias greci="git rebcom"
 alias grc="git rebase --continue"
 alias grs="git rebase --skip"
 alias gra="git rebase --abort"
 alias gfp="git fetch -p"
-
-# Composer
-alias c="composer"
-alias ci="composer install"
-alias cu="composer update"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
