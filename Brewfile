@@ -23,6 +23,8 @@ brew 'wget'
 brew 'yarn'
 brew 'zsh'
 
+cask '1password'
+cask '1password-cli'
 cask 'disk-inventory-x'
 cask 'dropbox'
 cask 'firefox'
@@ -33,6 +35,7 @@ cask 'vagrant'
 # cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'phpstorm'
+cask 'spectacle'
 
 mas "1Password", id: 1333542190
 mas "Amphetamine", id: 937984704
