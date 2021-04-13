@@ -7,7 +7,7 @@ set -eu
 DIR="$(cd `dirname $0` && pwd)"
 cd "$DIR"
 
-DEFAULT_DIRS=(~/bin ~/dev/go ~/.gnupg ~/.ssh)
+DEFAULT_DIRS=(~/bin ~/Dev ~/.gnupg ~/.ssh ~/.macos)
 
 function info() {
 	echo -e "\n\033[0;32m➤ $1\033[0m"
