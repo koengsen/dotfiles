@@ -23,23 +23,22 @@ brew 'wget'
 brew 'yarn'
 brew 'zsh'
 
-cask '1password'
-cask '1password-cli'
-cask 'disk-inventory-x'
-cask 'dropbox'
-cask 'firefox'
-cask 'google-cloud-sdk'
-cask 'iterm2'
-cask 'keka'
-cask 'vagrant'
-# cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'phpstorm'
-cask 'spectacle'
+brew '1password'
+brew 'google-chrome'
+brew '1password-cli'
+brew 'disk-inventory-x'
+brew 'dropbox'
+brew 'firefox'
+brew 'google-cloud-sdk'
+brew 'iterm2'
+brew 'keka'
+brew 'vagrant'
+# brew 'virtualbox'
+brew 'visual-studio-code'
+brew 'phpstorm'
+brew 'spectacle'
 
-mas "1Password", id: 1333542190
 mas "Amphetamine", id: 937984704
-mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
