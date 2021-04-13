@@ -7,18 +7,14 @@ set -eu
 DIR="$(cd `dirname $0` && pwd)"
 cd "$DIR"
 
-DEFAULT_DIRS=(~/bin ~/Dev ~/.gnupg ~/.ssh ~/.macos)
-
 function info() {
 	echo -e "\n\033[0;32m➤ $1\033[0m"
 }
 
 function directories() {
 	info "Creating default directories…"
-	for d in "${DEFAULT_DIRS[@]}"; do
-		echo "$d"
-		mkdir -p "$d"
-	done
+	mkdir -p ~/bin ~/dev/go ~/.gnupg ~/.ssh
+	chmod 0700 ~/.gnupg ~/.ssh
 }
 
 function dotfiles() {
