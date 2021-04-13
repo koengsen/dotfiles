@@ -10,7 +10,7 @@ My personal dotfiles using [powerlevel10k](https://github.com/romkatv/powerlevel
 - Copy SSH keys
 - Checkout and run dotfiles installer (including private dotfiles)
 
-  `git clone git@github.com:venyii/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh`
+  `git clone git@github.com:koengsen/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh`
 
 ## After
 - Keyboard
