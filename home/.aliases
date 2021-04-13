@@ -7,14 +7,14 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias dr="cd ~/Documents/Dropbox"
+alias dev="cd ~/Dev"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias vim="nvim"
-alias g="git"
-alias k="kubectl"
+alias k="kubectl "
 
 # Git
+alias g="git "
 alias gs="git status"
 alias gps="git push"
 alias gbr="git branch"
